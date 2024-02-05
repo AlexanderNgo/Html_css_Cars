@@ -1,0 +1,55 @@
+.titre
+{
+	display : flex;
+	justify-content: center;
+	margin-top: 20px;
+	//border : 1px solid;
+}
+
+.cadre
+{
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+	//border : 1px solid black;
+	
+}
+
+form
+{
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+	//border : 1px solid black;
+	width : 50%;
+	height : 100%;
+}
+.custom-input
+{
+	width : 150px;
+	background-color: red;
+}
+.custom-label
+{
+	font-weight: bold;
+}
+.c1
+{
+	margin-top : 12px;
+}
+.c2
+{
+	margin-top : 20px;
+}
+.c3
+{
+	//border: 1px solid;
+}
+.retour {
+    position: fixed;
+    top: 10px; 
+    left: 50px; 
+    text-decoration: none;
+}
