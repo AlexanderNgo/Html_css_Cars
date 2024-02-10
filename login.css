@@ -9,7 +9,7 @@
 .cadre
 {
 	position: absolute;
-    top: 50%;
+    top: 53%;
     left: 50%;
     transform: translate(-50%, -50%);
 	//border : 1px solid black;
@@ -45,11 +45,16 @@ form
 }
 .c3
 {
-	//border: 1px solid;
+	margin-top: 20px;
 }
 .retour {
     position: fixed;
     top: 10px; 
     left: 50px; 
     text-decoration: none;
+}
+h4
+{
+	display: flex;
+	justify-content: center;
 }
